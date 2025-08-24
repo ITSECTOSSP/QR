@@ -12,7 +12,7 @@
         loader.style.display = "none";
         content.style.display = "block";
       }, 500); // wait for fade-out to finish
-    }, 1000); // 3 second delay
+    }, 2000); // 3 second delay
   });
 
 
@@ -99,7 +99,7 @@ document.getElementById("generateQR").addEventListener("click", function () {
 
     download.classList.remove('d-none');
     download.classList.add('d-block');
-  }, 1000);
+  }, 2000);
 });
 
 // Download QR event
